@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 :root{
 
     /* Headings and titles font */
@@ -31,4 +32,56 @@ html{
 
     /* (62.5 * 16px) / 100 = 10px */
     font-size: 62.5%;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--blue--shade);
+}
+
+.links{
+    display: flex;
+    align-items: center;
+}
+.links li{
+    margin: 5px;
+    list-style: none;
+    margin: 0 1rem;
+    text-transform: capitalize;
+}
+.links a{
+    text-decoration: none;
+    color: var(--blue-color);
+    font-weight: 900;
+}
+.links i{
+    color: var(--jaune-color);
+}
+.active{
+    color:var(--gray-color) !important;
+}
+.langue{
+    border: 1px solid var(--blue--shade);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--jaune-color);
+    padding: 5px;
+}
+.info h3{
+    color: var(--gray-color);
+    margin: 7px;
+}
+.info p{
+    color: var(--blue-color);
+    font: 13px;
+    width: 500px;
+    margin: auto;
 }
