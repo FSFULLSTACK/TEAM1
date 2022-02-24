@@ -1,11 +1,16 @@
 
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root{
+=======
+/* :root{
+>>>>>>> a1018e9e912f179f9ac7bccaa723f95f586199e4
     --gray-color:#474747;
     --blue--shade : #2683b559;
     --jaune-color : #f4cf1b;
     --blue-color: #1078ad;
+<<<<<<< HEAD
 }
 
 *{
@@ -68,3 +73,8 @@ nav{
     width: 500px;
     margin: auto;
 }
+=======
+} */
+
+
+>>>>>>> a1018e9e912f179f9ac7bccaa723f95f586199e4

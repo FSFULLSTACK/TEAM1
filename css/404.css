@@ -1,0 +1,19 @@
+.arabe{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 300px;
+}
+.ara{
+
+  color: blueviolet;
+  padding: 20px;
+}
+.btn{
+    color: aliceblue;
+    background-color: blueviolet;
+    padding: 20px;
+
+    
+}
